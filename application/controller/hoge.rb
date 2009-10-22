@@ -1,6 +1,8 @@
 require 'rubygems'
 require 'sinatra'
 
+require 'erb'
+
 get '/hoge' do
-  "this is hoge"
+  erb :hoge
 end

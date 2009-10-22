@@ -1,6 +1,8 @@
 require 'rubygems'
 require 'sinatra'
 
+require 'erb'
+
 get '/' do
-  "Hello World!!!!"
+  erb :root
 end
