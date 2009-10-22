@@ -14,7 +14,7 @@ set :views, File.dirname(__FILE__) + '/application/templates'
 #----------------
 
 AppEngine::Rack.configure_app(
-    :application => "gluon-boson",
+    :application => "your-application-id",
     :version => 1
 )
 

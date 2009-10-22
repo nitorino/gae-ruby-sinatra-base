@@ -1,1 +1,9 @@
 this is application base with sinatra on google app engine.
+
+1.sudo gem install google-appengine
+2.git clone git://github.com/nitorino/gae-ruby-sinatra-base.git
+3.cd gae-ruby-sinatra-base
+4.edit config.ru and set your application-id
+5.appcfg.rb update .
+6.finally access http://your-application-id.appspot.com
+
