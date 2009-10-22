@@ -2,7 +2,10 @@ require 'rubygems'
 require 'appengine-rack'
 require 'rb-gae-support'
 
-require 'sinatra-helloworld'
+#-----application
+$LOAD_PATH.unshift './application/controller'
+require 'root'
+#----------------
 
 AppEngine::Rack.configure_app(
     :application => "gluon-boson",
