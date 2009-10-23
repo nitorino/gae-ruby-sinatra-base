@@ -6,4 +6,3 @@ this is application base with sinatra on google app engine.
 4. edit config.ru and set your-application-id
 5. appcfg.rb update .
 6. finally access http://your-application-id.appspot.com
-
